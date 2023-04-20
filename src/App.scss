@@ -1,0 +1,42 @@
+.container-nav {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  z-index: 1;
+
+  nav {
+      display: flex;
+      align-items: center;
+
+      ul {
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          cursor: pointer;
+          margin: 0;
+          list-style: none;
+          padding: 0px 150px;
+
+          li {
+              padding: 10px 20px;
+              color: black;
+              font-weight: 600;
+              font-family: Roboto-Medium, serif;
+
+              &:hover{
+                border-bottom: 1px solid black;
+              }
+          }
+      }
+  }
+}
+
+.memo, .callback{
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
